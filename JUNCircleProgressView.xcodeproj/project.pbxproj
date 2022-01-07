@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC4E749E2787EDFE007C8789 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4E749D2787EDFE007C8789 /* AppDelegate.m */; };
+		EC4E74A12787EDFE007C8789 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4E74A02787EDFE007C8789 /* SceneDelegate.m */; };
+		EC4E74A42787EDFE007C8789 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4E74A32787EDFE007C8789 /* ViewController.m */; };
+		EC4E74A72787EDFE007C8789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4E74A52787EDFE007C8789 /* Main.storyboard */; };
+		EC4E74A92787EE00007C8789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4E74A82787EE00007C8789 /* Assets.xcassets */; };
+		EC4E74AC2787EE00007C8789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4E74AA2787EE00007C8789 /* LaunchScreen.storyboard */; };
+		EC4E74AF2787EE00007C8789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4E74AE2787EE00007C8789 /* main.m */; };
+		EC4E74B92787EE00007C8789 /* JUNCircleProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4E74B82787EE00007C8789 /* JUNCircleProgressViewTests.m */; };
+		EC4E74C32787EE00007C8789 /* JUNCircleProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4E74C22787EE00007C8789 /* JUNCircleProgressViewUITests.m */; };
+		EC4E74C52787EE00007C8789 /* JUNCircleProgressViewUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4E74C42787EE00007C8789 /* JUNCircleProgressViewUITestsLaunchTests.m */; };
+		EC4E74D32787EE7A007C8789 /* JUNCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4E74D12787EE7A007C8789 /* JUNCircleProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC4E74B52787EE00007C8789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4E74912787EDFD007C8789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4E74982787EDFD007C8789;
+			remoteInfo = JUNCircleProgressView;
+		};
+		EC4E74BF2787EE00007C8789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4E74912787EDFD007C8789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4E74982787EDFD007C8789;
+			remoteInfo = JUNCircleProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC4E74992787EDFD007C8789 /* JUNCircleProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JUNCircleProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4E749C2787EDFD007C8789 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC4E749D2787EDFE007C8789 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC4E749F2787EDFE007C8789 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EC4E74A02787EDFE007C8789 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EC4E74A22787EDFE007C8789 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC4E74A32787EDFE007C8789 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC4E74A62787EDFE007C8789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC4E74A82787EE00007C8789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC4E74AB2787EE00007C8789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC4E74AD2787EE00007C8789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4E74AE2787EE00007C8789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC4E74B42787EE00007C8789 /* JUNCircleProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JUNCircleProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4E74B82787EE00007C8789 /* JUNCircleProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JUNCircleProgressViewTests.m; sourceTree = "<group>"; };
+		EC4E74BE2787EE00007C8789 /* JUNCircleProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JUNCircleProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4E74C22787EE00007C8789 /* JUNCircleProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JUNCircleProgressViewUITests.m; sourceTree = "<group>"; };
+		EC4E74C42787EE00007C8789 /* JUNCircleProgressViewUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JUNCircleProgressViewUITestsLaunchTests.m; sourceTree = "<group>"; };
+		EC4E74D12787EE7A007C8789 /* JUNCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUNCircleProgressView.m; sourceTree = "<group>"; };
+		EC4E74D22787EE7A007C8789 /* JUNCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUNCircleProgressView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4E74962787EDFD007C8789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4E74B12787EE00007C8789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4E74BB2787EE00007C8789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4E74902787EDFD007C8789 = {
+			isa = PBXGroup;
+			children = (
+				EC4E749B2787EDFD007C8789 /* JUNCircleProgressView */,
+				EC4E74B72787EE00007C8789 /* JUNCircleProgressViewTests */,
+				EC4E74C12787EE00007C8789 /* JUNCircleProgressViewUITests */,
+				EC4E749A2787EDFD007C8789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4E749A2787EDFD007C8789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4E74992787EDFD007C8789 /* JUNCircleProgressView.app */,
+				EC4E74B42787EE00007C8789 /* JUNCircleProgressViewTests.xctest */,
+				EC4E74BE2787EE00007C8789 /* JUNCircleProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4E749B2787EDFD007C8789 /* JUNCircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				EC4E749C2787EDFD007C8789 /* AppDelegate.h */,
+				EC4E749D2787EDFE007C8789 /* AppDelegate.m */,
+				EC4E749F2787EDFE007C8789 /* SceneDelegate.h */,
+				EC4E74A02787EDFE007C8789 /* SceneDelegate.m */,
+				EC4E74A22787EDFE007C8789 /* ViewController.h */,
+				EC4E74A32787EDFE007C8789 /* ViewController.m */,
+				EC4E74D42787EE7F007C8789 /* JUNCircleProgressView */,
+				EC4E74A52787EDFE007C8789 /* Main.storyboard */,
+				EC4E74A82787EE00007C8789 /* Assets.xcassets */,
+				EC4E74AA2787EE00007C8789 /* LaunchScreen.storyboard */,
+				EC4E74AD2787EE00007C8789 /* Info.plist */,
+				EC4E74AE2787EE00007C8789 /* main.m */,
+			);
+			path = JUNCircleProgressView;
+			sourceTree = "<group>";
+		};
+		EC4E74B72787EE00007C8789 /* JUNCircleProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4E74B82787EE00007C8789 /* JUNCircleProgressViewTests.m */,
+			);
+			path = JUNCircleProgressViewTests;
+			sourceTree = "<group>";
+		};
+		EC4E74C12787EE00007C8789 /* JUNCircleProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4E74C22787EE00007C8789 /* JUNCircleProgressViewUITests.m */,
+				EC4E74C42787EE00007C8789 /* JUNCircleProgressViewUITestsLaunchTests.m */,
+			);
+			path = JUNCircleProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		EC4E74D42787EE7F007C8789 /* JUNCircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				EC4E74D22787EE7A007C8789 /* JUNCircleProgressView.h */,
+				EC4E74D12787EE7A007C8789 /* JUNCircleProgressView.m */,
+			);
+			path = JUNCircleProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4E74982787EDFD007C8789 /* JUNCircleProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4E74C82787EE00007C8789 /* Build configuration list for PBXNativeTarget "JUNCircleProgressView" */;
+			buildPhases = (
+				EC4E74952787EDFD007C8789 /* Sources */,
+				EC4E74962787EDFD007C8789 /* Frameworks */,
+				EC4E74972787EDFD007C8789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JUNCircleProgressView;
+			productName = JUNCircleProgressView;
+			productReference = EC4E74992787EDFD007C8789 /* JUNCircleProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC4E74B32787EE00007C8789 /* JUNCircleProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4E74CB2787EE00007C8789 /* Build configuration list for PBXNativeTarget "JUNCircleProgressViewTests" */;
+			buildPhases = (
+				EC4E74B02787EE00007C8789 /* Sources */,
+				EC4E74B12787EE00007C8789 /* Frameworks */,
+				EC4E74B22787EE00007C8789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4E74B62787EE00007C8789 /* PBXTargetDependency */,
+			);
+			name = JUNCircleProgressViewTests;
+			productName = JUNCircleProgressViewTests;
+			productReference = EC4E74B42787EE00007C8789 /* JUNCircleProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC4E74BD2787EE00007C8789 /* JUNCircleProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4E74CE2787EE00007C8789 /* Build configuration list for PBXNativeTarget "JUNCircleProgressViewUITests" */;
+			buildPhases = (
+				EC4E74BA2787EE00007C8789 /* Sources */,
+				EC4E74BB2787EE00007C8789 /* Frameworks */,
+				EC4E74BC2787EE00007C8789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4E74C02787EE00007C8789 /* PBXTargetDependency */,
+			);
+			name = JUNCircleProgressViewUITests;
+			productName = JUNCircleProgressViewUITests;
+			productReference = EC4E74BE2787EE00007C8789 /* JUNCircleProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4E74912787EDFD007C8789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EC4E74982787EDFD007C8789 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EC4E74B32787EE00007C8789 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EC4E74982787EDFD007C8789;
+					};
+					EC4E74BD2787EE00007C8789 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EC4E74982787EDFD007C8789;
+					};
+				};
+			};
+			buildConfigurationList = EC4E74942787EDFD007C8789 /* Build configuration list for PBXProject "JUNCircleProgressView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4E74902787EDFD007C8789;
+			productRefGroup = EC4E749A2787EDFD007C8789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4E74982787EDFD007C8789 /* JUNCircleProgressView */,
+				EC4E74B32787EE00007C8789 /* JUNCircleProgressViewTests */,
+				EC4E74BD2787EE00007C8789 /* JUNCircleProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC4E74972787EDFD007C8789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4E74AC2787EE00007C8789 /* LaunchScreen.storyboard in Resources */,
+				EC4E74A92787EE00007C8789 /* Assets.xcassets in Resources */,
+				EC4E74A72787EDFE007C8789 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4E74B22787EE00007C8789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4E74BC2787EE00007C8789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4E74952787EDFD007C8789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4E74D32787EE7A007C8789 /* JUNCircleProgressView.m in Sources */,
+				EC4E74A42787EDFE007C8789 /* ViewController.m in Sources */,
+				EC4E749E2787EDFE007C8789 /* AppDelegate.m in Sources */,
+				EC4E74AF2787EE00007C8789 /* main.m in Sources */,
+				EC4E74A12787EDFE007C8789 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4E74B02787EE00007C8789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4E74B92787EE00007C8789 /* JUNCircleProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4E74BA2787EE00007C8789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4E74C52787EE00007C8789 /* JUNCircleProgressViewUITestsLaunchTests.m in Sources */,
+				EC4E74C32787EE00007C8789 /* JUNCircleProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC4E74B62787EE00007C8789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4E74982787EDFD007C8789 /* JUNCircleProgressView */;
+			targetProxy = EC4E74B52787EE00007C8789 /* PBXContainerItemProxy */;
+		};
+		EC4E74C02787EE00007C8789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4E74982787EDFD007C8789 /* JUNCircleProgressView */;
+			targetProxy = EC4E74BF2787EE00007C8789 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC4E74A52787EDFE007C8789 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4E74A62787EDFE007C8789 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC4E74AA2787EE00007C8789 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4E74AB2787EE00007C8789 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC4E74C62787EE00007C8789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC4E74C72787EE00007C8789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC4E74C92787EE00007C8789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T536RC8J7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JUNCircleProgressView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinZhu.JUNCircleProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC4E74CA2787EE00007C8789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T536RC8J7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JUNCircleProgressView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinZhu.JUNCircleProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC4E74CC2787EE00007C8789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T536RC8J7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinZhu.JUNCircleProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JUNCircleProgressView.app/JUNCircleProgressView";
+			};
+			name = Debug;
+		};
+		EC4E74CD2787EE00007C8789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T536RC8J7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinZhu.JUNCircleProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JUNCircleProgressView.app/JUNCircleProgressView";
+			};
+			name = Release;
+		};
+		EC4E74CF2787EE00007C8789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T536RC8J7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinZhu.JUNCircleProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JUNCircleProgressView;
+			};
+			name = Debug;
+		};
+		EC4E74D02787EE00007C8789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T536RC8J7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XinZhu.JUNCircleProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JUNCircleProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4E74942787EDFD007C8789 /* Build configuration list for PBXProject "JUNCircleProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4E74C62787EE00007C8789 /* Debug */,
+				EC4E74C72787EE00007C8789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4E74C82787EE00007C8789 /* Build configuration list for PBXNativeTarget "JUNCircleProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4E74C92787EE00007C8789 /* Debug */,
+				EC4E74CA2787EE00007C8789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4E74CB2787EE00007C8789 /* Build configuration list for PBXNativeTarget "JUNCircleProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4E74CC2787EE00007C8789 /* Debug */,
+				EC4E74CD2787EE00007C8789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4E74CE2787EE00007C8789 /* Build configuration list for PBXNativeTarget "JUNCircleProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4E74CF2787EE00007C8789 /* Debug */,
+				EC4E74D02787EE00007C8789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4E74912787EDFD007C8789 /* Project object */;
+}
